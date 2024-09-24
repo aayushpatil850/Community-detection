@@ -53,7 +53,8 @@ The **Girvan-Newman Algorithm** detects communities by removing edges with the h
 - **Edge Betweenness Calculation**: The edge with the highest betweenness is removed at each step. Betweenness centrality of an edge is computed by counting the number of shortest paths that pass through it.
   
 - **Community Formation**: After removing each edge, the number of connected components is evaluated. If the number of communities changes, the edge betweenness is recalculated.
-
+### Dendrogram 
+Dendrogram is included in the report for showing how the communities are actually formed.
 ### Usage
 
 1. **LastFM Asia Dataset**:
